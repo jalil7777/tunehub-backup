@@ -1,0 +1,43 @@
+body {
+	
+	background-image: url("/index.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+.app {
+	width: 20%;
+	height: 200px;
+	max-width: 600px;
+	margin: 100px auto 0;
+	border-radius: 10px;
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
+	justify-content: center;
+	font-size: 35px;
+	font-weight:600;
+	color:yellow;
+	font-weight: 600;
+	margin-top:130px;
+	padding-top: 10px;
+	
+}
+
+a:link, a:visited {
+	width:100px;
+	background-color:#803e24;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 75px;
+}
+
+a:hover, a:active {
+	background-color: #c1882e;
+}

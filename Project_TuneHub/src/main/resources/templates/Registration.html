@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<link rel="stylesheet" type="text/css" th:href="@{/registration.css}">
+</head>
+<body>
+	<div >
+	<img  id="sign" alt="image" th:src="@{/sign.jpg}">
+	</div>
+
+	<div class="register2">
+	
+	<h1>Sign Up</h1>
+	<p>Unlock the rhythm of your journey.Join our music community and compose your story in melodies</p>
+	
+	<form action="register" method="post">
+		<label>Username</label><br /> <input type="text" name="username">
+		<br />
+		<br /> <label>Email</label><br /> <input type="email" name="email">
+		<br />
+		<br /> <label>Password</label><br /> <input type="password"
+			name="password"> <br />
+		<br /> <label>Gender</label><br /> Male<input type="radio"
+			name="gender" value="male"> Female<input type="radio"
+			name="gender" value="female"> Other<input type="radio"
+			name="gender" value="other"> <br />
+		<br /> <label>Role</label><br /> Admin<input type="radio" name="role"
+			value="admin"> Customer<input type="radio" name="role"
+			value="customer"> <br />
+		<br /> <label>Address</label><br />
+		<textarea name="address"></textarea>
+		<br />
+		<br /> <input type="submit" value="SUBMIT" id="button" >
+	</form>
+	
+	</div>
+
+	
+
+
+</body>
+</html>

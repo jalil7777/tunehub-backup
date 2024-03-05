@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" th:href="@{/login.css}">
+</head>
+<body>
+
+	<div>
+	<img  id="log" alt="image" th:src="@{/log.jpg}">
+	</div>
+	
+	<div class="login">
+	<h1>Welcome Back To TuneHUB</h1>
+	
+	
+	      <h2>USER LOGIN</h2>
+		<form action="validate" method="post">
+			<label>Email</label><br /> <input type="email" name="email">
+			<br />
+			<br />
+			 <label>Password</label><br />
+			  <input type="password" name="password"> <br /><br/>
+			  <input type="submit" value="LOGIN" id="button">
+		</form>
+		<p>"TuneHub: Your sonic sanctuary for discovering the latest beats, melodies, and rhythms across every genre imaginable."</p>
+	</div>
+	
+</body>
+</html>
